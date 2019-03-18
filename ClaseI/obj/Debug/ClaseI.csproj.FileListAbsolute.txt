@@ -1,0 +1,14 @@
+D:\VisualStudio\ProgramacionII\ClaseI\bin\Debug\ClaseI.exe.config
+D:\VisualStudio\ProgramacionII\ClaseI\bin\Debug\ClaseI.exe
+D:\VisualStudio\ProgramacionII\ClaseI\bin\Debug\ClaseI.pdb
+D:\VisualStudio\ProgramacionII\ClaseI\obj\Debug\ClaseI.csprojAssemblyReference.cache
+D:\VisualStudio\ProgramacionII\ClaseI\obj\Debug\ClaseI.csproj.CoreCompileInputs.cache
+D:\VisualStudio\ProgramacionII\ClaseI\obj\Debug\ClaseI.exe
+D:\VisualStudio\ProgramacionII\ClaseI\obj\Debug\ClaseI.pdb
+D:\MarianoMastronardi\ProgramacionII\ClaseI\bin\Debug\ClaseI.exe.config
+D:\MarianoMastronardi\ProgramacionII\ClaseI\bin\Debug\ClaseI.exe
+D:\MarianoMastronardi\ProgramacionII\ClaseI\bin\Debug\ClaseI.pdb
+D:\MarianoMastronardi\ProgramacionII\ClaseI\obj\Debug\ClaseI.csprojAssemblyReference.cache
+D:\MarianoMastronardi\ProgramacionII\ClaseI\obj\Debug\ClaseI.csproj.CoreCompileInputs.cache
+D:\MarianoMastronardi\ProgramacionII\ClaseI\obj\Debug\ClaseI.exe
+D:\MarianoMastronardi\ProgramacionII\ClaseI\obj\Debug\ClaseI.pdb
