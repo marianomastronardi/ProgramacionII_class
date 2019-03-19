@@ -15,7 +15,29 @@ namespace ClaseI
 
         static void Main(string[] args)
         {
-            ShowMenu();
+            //Opcion 1
+            //ShowMenu();
+
+            //Opcion 2
+            string operador = string.Empty;
+            int numero1 = 0;
+            int numero2 = 0;
+            
+            Console.WriteLine("Ingrese un operador.");
+            operador = Console.ReadLine();
+
+            Console.WriteLine("Ingrese 2 numeros: ");
+
+            Console.Write("Numero 1: ");
+            //numero1 = Convert.ToInt16(Console.ReadLine());
+            while (!int.TryParse(Console.ReadLine(),out numero1));
+
+            Console.Write("Numero 2: ");
+            //numero2 = Convert.ToInt16(Console.ReadLine());
+            while (!int.TryParse(Console.ReadLine(), out numero2));
+
+            Console.WriteLine(ShowResult(operador, numero1, numero2));
+            Console.ReadKey();
         }
 
         static void ShowMenu()
@@ -26,6 +48,7 @@ namespace ClaseI
             double ret = 0;
 
             Console.WriteLine("Ingrese 2 numeros: ");
+
             Console.Write("Numero 1: ");
             numero1 = Convert.ToInt16(Console.ReadLine());
 
@@ -83,6 +106,30 @@ namespace ClaseI
         static double Dividir(int numero1, int numero2)
         {
             return Convert.ToDouble((double)numero1 / (double)numero2);
+        }
+
+        static double ShowResult(string operador, int numero1, int numero2)
+        {
+            double ret = 0;
+            
+            switch(operador)
+            {
+                case "+":
+                    ret = numero1 + numero2;
+                    break;
+                case "-":
+                    ret = numero1 - numero2;
+                    break;
+                case "*":
+                    ret = numero1 * numero2;
+                    break;
+                case "/":
+                    ret = numero1 / numero2;
+                    break;
+                default:
+                    break;
+            }
+            return ret;
         }
     }
 }
